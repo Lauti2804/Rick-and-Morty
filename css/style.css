@@ -1,0 +1,52 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+html{
+    padding:0;
+    margin:0;
+}
+
+:root{
+    --fuenteTitle: 'Dosis', sans-serif;
+    --fuenteTexto: 'Red Hat Display', sans-serif;
+
+    --black: #000000;
+    --green: #1A4D2E;
+    --orange:#FF9F29;
+    --beige:#FAF3E3;
+}
+
+body{
+    margin: 0;
+    width: 80rem;
+    margin:  0 auto;
+    padding: 0
+}
+.card-List-grid{
+    display: grid;
+    width: 80rem;
+    
+    margin: 0 auto;
+    grid-template-columns: repeat(3,1fr);
+    gap:2rem;
+}
+
+.card-info{
+    padding: 2rem;
+}
+
+.card-container{
+    width: auto;
+    height: auto;
+    border: var(--green) 2px solid;
+    border-radius: 2rem;
+}
+.card-img{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 2rem;
+}
