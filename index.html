@@ -12,60 +12,55 @@
 </head>
 <body>
     <header>
-        <img src="./img/funny-rick-and-morty-shirt-logo-rick-y-morty-1256995.png" alt="Logo">
+        <img  class="header--logo" src="./img/logoRickAndMorty.png" alt="Logo">
         <div>
             <h2>Welcome to the club Rick And Morty </h2>
         </div>
     </header>
+    <section class="section-container" >
+        <div class="section-status">
 
-    <section class="card-List-grid">
-        <div class="card-container"> 
-            <img class="card-img" src="https://rickandmortyapi.com/api/character/avatar/20.jpeg" alt="">
-             <div class="card-info">
-                <p class="card-name">Ants in my Eyes Johnson</p>
-                <p class="card-specie">Human</p>
-                <p class="card-status">Lived</p>
-            </div>
+            <p>Status</p>
+            <select name="Status" id="StatusSelected">
+                <option value="">All</option>
+                <option value="alive">alive</option>
+                <option value="dead">dead</option>
+                <option value="unknown">unknown</option>
+            </select>
         </div>
-        <div class="card-container"> 
-            <img class="card-img" src="https://rickandmortyapi.com/api/character/avatar/20.jpeg" alt="">
-             <div class="card-info">
-                <p class="card-name">Ants in my Eyes Johnson</p>
-                <p class="card-specie">Human</p>
-                <p class="card-status">Lived</p>
-            </div>
+        <div class="section-status">
+            <p>Gender</p>
+            <select name="gender" id="genderSelected">
+                <option value="">All</option>
+                <option value="female">female</option>
+                <option value="male">male</option>
+                <option value="genderless">genderless</option>
+                <option value="unknown">unknown</option>
+            </select>
         </div>
-        
-        <div class="card-container"> 
-            <img class="card-img" src="https://rickandmortyapi.com/api/character/avatar/20.jpeg" alt="">
-             <div class="card-info">
-                <p class="card-name">Ants in my Eyes Johnson</p>
-                <p class="card-specie">Human</p>
-                <p class="card-status">Lived</p>
-            </div>
-        </div>
-        
-        <div class="card-container"> 
-            <img class="card-img" src="https://rickandmortyapi.com/api/character/avatar/20.jpeg" alt="">
-            <div class="card-info">
-                <p class="card-name">Ants in my Eyes Johnson</p>
-                <p class="card-specie">Human</p>
-                <p class="card-status">Lived</p>
-            </div>
-        </div>
-        
-        <div class="card-container"> 
-            <img class="card-img" src="https://rickandmortyapi.com/api/character/avatar/20.jpeg" alt="">
-             <div class="card-info">
-                <p class="card-name">Ants in my Eyes Johnson</p>
-                <p class="card-specie">Human</p>
-                <p class="card-status">Lived</p>
-            </div>
-        </div>
-        
-
+    
+       
     </section>
-
+    <div class="scroll">
+        <section class="card-List-grid">
+            <!-- <div class="card-container"> 
+                <img class="card-img" src="https://rickandmortyapi.com/api/character/avatar/20.jpeg" alt="">
+                <div class="card-info">
+                    <p class="card-name">Ants in my Eyes Johnson</p>
+                    <p class="card-specie">Human</p>
+                    <p class="card-status">Lived</p>
+                </div>
+            </div>
+        -->
+        
+    </section>
+    
+</div>
+<section>
+    <img class="footer" src="./img/footerImageRickAndMorty.png" alt="Imagen" >
+</section>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/js/nodes.js"></script>
     <script src="/js/main.js"></script>
 </body>
 </html>
