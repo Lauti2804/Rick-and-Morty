@@ -1,0 +1,22 @@
+@media (min-width: 600px) {
+    .card-List-grid{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media (min-width: 900px) {
+    .footer {
+        width: 14rem;
+        position: absolute;
+        bottom: -331px;
+    }
+    
+    .card-List-grid {
+    grid-template-columns: repeat(5,1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+    .footer {
+        bottom: -600px;
+    }
+}
